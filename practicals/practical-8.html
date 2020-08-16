@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-8</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            margin: auto 10px;
+        }
+        .header{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: gray;
+            border: 10px solid gray;
+            position: fixed;
+            top: 0px;
+            z-index: 100;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .header ul li{
+            display: inline-block;
+        }
+        .header ul li a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            padding: 15px 65px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .header ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        .banner{
+            margin-top: 100px;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: white;
+        }
+        .banner h1{
+            position: absolute;
+            top: 180px;
+            left: 40px;
+        }
+        .banner img{
+            width: 100%;
+        }
+        .team{
+            margin-top: 200px;
+            margin-bottom: 100px;
+        }
+        .section{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .dot img{
+            height: 280px;
+            width: 280px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 2.1%;
+            margin-right: 1.3%;
+        }
+        .about{
+            margin-top: 200px;
+            margin-bottom: 40px;
+        }
+        .box{
+            height: 620px;
+            margin-bottom: 40px;
+        }
+        .left-sidebar{
+            background-color: gray;
+            color: white;
+            width: 50%;
+            height: 600px;
+            margin-right: 25px;
+            padding: 10px;
+            float: left;
+        }
+        .left-sidebar h1{
+            margin-bottom: 15px;
+        }
+        .project-1{
+            float: right;
+            width: 46%;
+            height: 200px;
+            background-image: url(../images/project-8_p1.jpg);
+            background-repeat: none;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .project-2{
+            float: right;
+            width: 46%;
+            height: 200px;
+            background-image: url(../images/project-8_p2.jpeg);
+            background-repeat: none;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .project-3{
+            float: right;
+            width: 46%;
+            height: 200px;
+            background-image: url(../images/project-8_p3.jpg);
+            background-repeat: none;
+            background-size: cover;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+        }
+        .technologies{
+            margin-top: 200px;
+            margin-bottom: 20px;
+        }
+        .cards{
+            width: 20%;
+            margin: 20px 20px;
+            padding: 10px;
+            border-radius: 8px;
+            color: black;
+            display: block;
+            background-color: lightpink;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            float: left;
+        }
+        .cards img{
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            border: 2px solid black;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: white;
+        }
+        .cards h4{
+            text-align: center;
+            margin: 0px 10px;
+            padding: 5px;
+        }
+        .cards a{
+            background-color: red;
+            color: white;
+            text-align: center;
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .cards a:hover{
+            background-color: blue;
+        }
+        .contact{
+            margin-bottom: 15px;
+            margin-top: 150px;
+        }
+        .footer{
+            background-color: plum;
+            border: 20px solid plum;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .footer li{
+            list-style: none;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#technologies">TECHNOLOGIES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <a name="banner"></a>
+        <div class="banner">
+            <h1>PRACTICAL-8</h1>
+            <img src="../images/project-8_banner.jpg" alt="banner">
+        </div>
+        <a name="team"></a>
+        <div class="team">
+            <div class="section">Team Members</div>
+            <div class="dot">
+                <img src="../images/project-8_1.png" alt="">
+                <img src="../images/project-8_2.png" alt="">
+                <img src="../images/project-8_3.png" alt="">
+                <img src="../images/project-8_9.png" alt="">
+            </div>
+        </div>
+        <a name="about"></a>
+        <div class="about">
+            <div class="section">About Us</div>
+            <div class="box">
+                <div class="left-sidebar">
+                    <h1>About Projects</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore quod optio consequatur, velit fugiat obcaecati fuga. Nostrum amet laboriosam ea explicabo ullam maxime, sit quisquam ipsa quas sequi deleniti vitae id voluptatem numquam. Voluptatibus illum delectus vitae excepturi, officiis quae fugiat ullam ipsum deleniti recusandae exercitationem expedita accusamus temporibus ipsam vero unde ad qui, aliquid, esse necessitatibus. Odio iste ex ea, sint veritatis laudantium placeat sequi distinctio explicabo, animi quod atque? Possimus voluptatum non perspiciatis animi. Laborum sed similique incidunt eum dicta reiciendis natus ipsa aspernatur facere saepe ipsum ut esse nostrum sequi nihil a ea tempore quia dolores, eligendi quaerat illum quod excepturi blanditiis. Similique reiciendis assumenda quos doloribus sequi dolor deleniti rerum! Beatae recusandae iusto eaque nemo dolorem repellendus quos, ipsa deleniti ad minima facilis nobis a laudantium neque possimus id molestias! Earum, ea! Mollitia, minima. Non consequatur, doloribus odio sed libero pariatur quisquam deleniti, tenetur neque eveniet ad dolore nostrum fugit? Similique cum minus non rem praesentium quasi deleniti hic, repellat veritatis, consequatur unde libero iste enim. Nulla incidunt beatae numquam libero deleniti! Pariatur ut repudiandae nemo quibusdam et dignissimos odio, suscipit veniam nihil cumque beatae, praesentium minima qui temporibus sed cum nisi accusamus voluptatem ea esse at in ratione. Nemo aliquam soluta fugit ad molestiae. Minus earum illum voluptates et reiciendis. Nam distinctio, repellendus, necessitatibus a voluptatibus unde fugiat vitae eius, maiores assumenda dolorem? Blanditiis tempora commodi voluptates magni quia est, dolorum dolore, explicabo unde eum veniam quibusdam dolores. Dolorum fugiat a odit nisi atque eos?</p>
+                </div>
+                <div class="right-sidebar">
+                    <div class="project-1">Project-1</div>
+                    <div class="project-2">Project-2</div>
+                    <div class="project-3">Project-3</div>
+                </div>
+            </div>
+        </div>
+        <a name="technologies"></a>
+        <div class="technologies">
+            <div class="section">Technologies Used</div>
+            <div class="cards">
+                <img src="../images/practical-6-Html.jpg" alt="HTML">
+                <h4>Introduction to HTML</h4>
+                <p>
+                    HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. 
+                    HTML is the combination of Hypertext and Markup language. Hypertext defines the link ...
+                </p>
+                <a href="practical-5-Html.html">Read More</a>
+            </div>
+            <div class="cards">
+                <img src="../images/practical-6-Css.png" alt="CSS">
+                <h4>Introduction to CSS</h4>
+                <p>
+                    Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify 
+                    the process of making web pages presentable. CSS allows you to apply styles to ...
+                </p>
+                <a href="practical-5-Css.html">Read More</a>
+            </div>
+            <div class="cards">
+                <img src="../images/practical-6-Javascript.png" alt="JavaScript">
+                <h4>Introduction to JavaScript</h4>
+                <p>
+                    JavaScript is a lightweight, cross-platform and interpreted scripting language. It is well-known for 
+                    the development of web pages, many non-browser environments also use it. JavaScript can be used ...        
+                </p>
+                <a href="practical-5-Javascript.html">Read More</a>
+            </div>
+            <div class="cards">
+                <img src="../images/practical-6-Bootstrap.png" alt="Bootstrap">
+                <h4>Introduction to Bootstrap</h4>
+                <p>
+                    Bootstrap is a free and open-source tool collection for creating responsive websites and web 
+                    applications. It is the most popular HTML, CSS, and JavaScript framework for developing responsive, 
+                    mobile ...
+                </p>
+                <a href="practical-5-BootStrap.html">Read More</a>
+            </div>
+        </div>
+        <a name="contact"></a>
+        <div class="contact">
+            <div class="section">Contact</div>
+            <div class="footer">
+                <li>
+                    Website Template for Practical-8 @ 
+                    <a href="https://pratibhadixit3990.github.io/FullStackPracticals/">Index</a>
+                    <br>
+                    <br>
+                    <li><a href="#">Back to top</a></li>
+                </li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
