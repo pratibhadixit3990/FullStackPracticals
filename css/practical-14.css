@@ -33,8 +33,6 @@ section {
 }
 
 .header {
-    /* background-color:red; */
-    /* opacity: 0.6; */
     background: linear-gradient(to right, orange, red);
     height: 130px;
     display: flex;
