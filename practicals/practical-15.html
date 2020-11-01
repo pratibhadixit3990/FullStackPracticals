@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        
+    </style>
+    <title>Practical-15</title>
+</head>
+<body>
+<p>COUNTER</p>
+<div id="container">
+    <button id="minus">-</button>
+    <p id="count">0</p>
+    <button id="plus">+</button>
+
+</div>
+<script>
+    var minus = document.getElementById("minus");
+    var plus = document.getElementById("plus");
+    count = document.getElementById("count");
+    var counter = 0;
+    updateCounter();
+
+    function updateCounter() {
+        count.innerHTML = counter;
+        if (counter <= 0) minus.style.color = "grey";
+        else minus.style.color = "black";
+    }
+
+    plus.addEventListener("click", () => {
+        counter++;
+        updateCounter();
+    });
+
+    minus.addEventListener("click", () => {
+
+
+        if (counter <= 0) {
+            minus.disable = true;
+        } else {
+            counter--;
+            minus.disable = false;
+        }
+        updateCounter();
+    });
+
+</script>
+</body>
+</html>
