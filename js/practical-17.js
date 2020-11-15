@@ -46,7 +46,7 @@ function setGreeting() {
         document.body.style.backgroundImage = 'url("../images/practical-17-Afternoon.jpg")';
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundPosition = "position";
-        document.body.style.color = "white";
+        //document.body.style.color = "white";
     } else {
         greeting.innerHTML = "Good Evening";
         document.body.style.backgroundImage = 'url("../images/practical-17-Night.jpg")';
